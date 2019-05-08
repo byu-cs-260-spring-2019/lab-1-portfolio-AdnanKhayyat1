@@ -6,7 +6,7 @@
 <body>
     <header>
        
-        <h1>BYU Portifolio</h1>
+        <h1>My Very Own Portifolio</h1>
         
     </header>
     <div class="row">
@@ -17,15 +17,40 @@
                 <b></b>
                 <h2>My name is Adnan Khayyat, and this is my Portifolio!</h2>
                 <!-- <div class="photo"> -->
-                        <img src="grad.jpg" alt="My Graduation Photo"  height = "200">
+                <img src="grad.jpg" alt="My Graduation Photo"  height = "200">
                 <!-- </div> -->
                 <br>
             </div>
            <br>
            <div class="solid">
-           <h1>My Projects</h1>
+           <h1>My Projects</h1> 
+           <ul>
+               <li><a href="https://cs260projkh.firebaseapp.com">Muffin-To-Google</a></li>
+               <li><a href="https://my-project-7ced4.firebaseapp.com">My Family</a></li>
+               <li><a href="https://projectnumber3-31ae7.firebaseapp.com">My Favorite food</a></li>
+           </ul>
            </div>
-            
+           <br>
+            <div class = "solid">
+                <h1>Click on the button below to change background color.</h1>
+                <div style="text-align:center;">
+                    
+                <button type="button" onclick="myFunction()">Set background color to white.</button>
+                </div>
+                <br>
+            </div>
+            <br>
+            <div class = "solid">
+                <h1>Contact me</h1>
+                <div style="text-align:center;">
+                
+                <a href = "https://www.linkedin.com/in/adnan-khayyat-70914117a/">My Linked In Account</a>
+                <br>
+                <br>
+                <a href = "https://github.com/AdnanKhayyat1">My Github Account</a>
+                </div>
+                <br>
+            </div>
         </div>
         <div class="column middle">
             
@@ -35,7 +60,8 @@
             <h1>About me</h1>
             <ul>
                 <li>I was born and raised in Jerusalem, and plan to go work there when I graduate.</li>
-                <img src="jj.jpg" alt="Picture of Jerusalem" width = "200" height = "200">
+                <img src="jj.jpg" alt="Picture of Jerusalem" width = "300" height = "200">
+                <br>
                 <li>I have been a full time student at Brigham Young University for 3 semesters now.</li>
                 <li>I'm a Computer Science Major, and plan to pursue a research track in Data Science when I graduate.</li>
                 <li>I speak Arabic, English, Hebrew and sign in ASL.</li>
@@ -65,7 +91,12 @@
 
         </div>
       </div>
+ 
       <script>
+        function myFunction() {
+            document.body.style.backgroundColor = "white";
+        }
+            
         
       </script>
 </body> 
